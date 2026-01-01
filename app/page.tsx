@@ -103,7 +103,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="space-y-4 mb-10 backdrop-blur-md bg-black/40 rounded-3xl p-8 border-2 border-white/30 shadow-2xl"
+              className="space-y-4 mb-10 backdrop-blur-md bg-black/40 rounded-3xl p-8 border-2 border-white/30 shadow-2xl text-left"
             >
               {["창조: 혁신적인 기술로 깊고 효과적인 세정", "청결: 세균과 때를 완벽하게 제거", "상쾌: 하루 종일 피부가 상쾌하고 신선함 유지"].map((text, i) => (
                 <motion.p 
