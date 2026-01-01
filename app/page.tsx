@@ -111,7 +111,7 @@ export default function Home() {
                   initial={{ opacity: 0, x: -50 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.5 + i * 0.2 }}
-                  className="text-xl md:text-2xl text-white font-semibold"
+                  className="text-lg md:text-xl text-white font-semibold"
                 >
                   • {text}
                 </motion.p>
