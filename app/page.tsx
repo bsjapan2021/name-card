@@ -61,7 +61,7 @@ export default function Home() {
               }}
             >
               <motion.h1 
-                className="text-6xl md:text-8xl font-bold mb-6 text-white"
+                className="text-2xl md:text-3xl font-bold mb-6 text-white"
                 style={{
                   textShadow: '0 4px 20px rgba(0,0,0,0.8), 0 0 40px rgba(59, 130, 246, 0.8)'
                 }}
