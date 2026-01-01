@@ -22,9 +22,9 @@ export default function Home() {
         {/* Natural Vignette Effect - Bottom */}
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/80 via-black/40 to-transparent z-10" />
         
-        {/* Company Branding - Bottom Right (Natural Watermark) */}
+        {/* Company Branding - Bottom Right (Natural Watermark) - Hidden on mobile */}
         <motion.div
-          className="absolute bottom-4 right-4 z-20 flex items-center gap-3 backdrop-blur-sm bg-white/10 rounded-2xl px-6 py-3 border border-white/20"
+          className="absolute bottom-4 right-4 z-20 hidden md:flex items-center gap-3 backdrop-blur-sm bg-white/10 rounded-2xl px-6 py-3 border border-white/20"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 2, duration: 1 }}
