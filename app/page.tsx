@@ -78,7 +78,7 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 py-24">
-          <div className="grid lg:grid-cols-[1.1fr_0.7fr_0.6fr] gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.7fr_0.6fr] gap-8 lg:gap-12 items-center">
             <div className="space-y-8">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
@@ -112,7 +112,7 @@ export default function Home() {
                 공장자동화, 유기태양전지(OPV)까지 연구·개발·사업화를 수행해 왔습니다.
               </motion.p>
 
-              <div className="grid md:grid-cols-3 gap-4">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {highlights.map((item, index) => (
                   <motion.div
                     key={index}
@@ -228,7 +228,7 @@ export default function Home() {
       </section>
 
       <section className="relative z-10 max-w-6xl mx-auto px-6 pb-20">
-        <div className="grid lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
             <h3 className="text-xl font-semibold mb-4">핵심 역량</h3>
             <ul className="space-y-3 text-sm text-white/70">
@@ -295,7 +295,7 @@ export default function Home() {
                 프로젝트 버튼을 클릭하면 데모 사이트로 이동합니다.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
                 {
                   title: "산청군 수재해 취약지구 홍수재해 관리시스템",
@@ -349,7 +349,7 @@ export default function Home() {
               <h3 className="text-2xl font-semibold">초미세기포 관련 개발품</h3>
               <p className="text-white/70 mt-2">양어양식장 용존산소 및 AI제어 수질관리 시스템</p>
             </div>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 { src: "/3.jpeg", title: "양어양식장 용존산소 및 AI제어 수질관리 시스템" },
                 { src: "/4.jpeg", title: "양어양식장 용존산소 및 AI제어 수질관리 시스템" },
@@ -392,7 +392,7 @@ export default function Home() {
       </section>
 
       <section className="relative z-10 max-w-6xl mx-auto px-6 pb-24">
-        <div className="grid lg:grid-cols-[0.55fr_0.45fr] gap-8 items-center rounded-3xl border border-white/10 bg-white/5 p-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[0.55fr_0.45fr] gap-8 items-center rounded-3xl border border-white/10 bg-white/5 p-8">
           <div className="space-y-4">
             <h3 className="text-2xl font-semibold">초미세기포 발생 메커니즘</h3>
             <p className="text-white/70 leading-relaxed">
@@ -451,7 +451,7 @@ export default function Home() {
               <h3 className="text-2xl font-semibold">초미세기포 제네레이터 프로젝트</h3>
               <p className="text-white/70 mt-2">제품 구성과 버블 생성장치 이미지를 카드로 정리했습니다.</p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 { src: "/제품1.png", title: "초미세기포 제네레이터 제품" },
                 { src: "/버블생성장치.jpeg", title: "버블 생성장치" },
