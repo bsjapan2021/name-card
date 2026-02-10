@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Footer from "./components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NanoBriX - 초미세버블 기술의 선두주자",
-  description: "나노브릭스는 초미세버블 기술로 청결, 세정, 환경 개선 솔루션을 제공합니다.",
+  title: "주식회사 허틀러 - 초미세버블 기술의 선두주자",
+  description: "주식회사 허틀러는 초미세버블 기술로 청결, 세정, 환경 개선 솔루션을 제공합니다.",
 };
 
 export default function RootLayout({
@@ -31,7 +30,6 @@ export default function RootLayout({
         <main>
           {children}
         </main>
-        <Footer />
       </body>
     </html>
   );
