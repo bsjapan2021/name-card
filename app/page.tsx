@@ -96,7 +96,7 @@ export default function Home() {
                 transition={{ duration: 0.9, delay: 0.1 }}
                 className="text-4xl md:text-6xl font-black leading-tight"
               >
-                여승훈
+                여 승 훈(余 承勳)
                 <span className="block text-2xl md:text-3xl font-semibold text-cyan-300 mt-4">
                   R&D · 제조자동화 · AI 융합
                 </span>
@@ -153,7 +153,7 @@ export default function Home() {
                   <div className="relative h-20 w-20 rounded-2xl overflow-hidden border border-white/20">
                     <Image
                       src="/1.jpeg"
-                      alt="여승훈 프로필 사진"
+                      alt="여 승 훈(余 承勳) 프로필 사진"
                       fill
                       sizes="80px"
                       className="object-cover"
@@ -212,7 +212,7 @@ export default function Home() {
                   <div className="relative w-full h-[440px] rounded-[28px] overflow-hidden border border-white/10 bg-[#0b1120]">
                     <Image
                       src="/5.png"
-                      alt="여승훈 전신 사진"
+                      alt="여 승 훈(余 承勳) 전신 사진"
                       fill
                       sizes="(max-width: 1280px) 40vw, 280px"
                       className="object-contain"
